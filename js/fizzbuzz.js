@@ -33,6 +33,7 @@ $("#submit").click(function(){
       if (i == 0) {
         $(".container").append('<p class="fzbz">' + i + '</p>')
       }
+      else
       FizzOrBuzz(i);
     }
   }
